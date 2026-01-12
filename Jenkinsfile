@@ -1,5 +1,5 @@
 pipeline {
-    agent any {
+    agent any ##{
         label 'rhel8'  // Specify RHEL 8 agent label
     }
 
