@@ -1,7 +1,5 @@
 pipeline {
-    agent any ##{
-        label 'rhel8'  // Specify RHEL 8 agent label
-    }
+    agent any
 
     environment {
         NETLIFY_SITE_ID = '53b63b0f-3194-4bd0-96af-ce233da908d1'
